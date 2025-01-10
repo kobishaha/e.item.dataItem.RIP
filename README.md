@@ -162,5 +162,3 @@ License
 This project is provided under the MIT License. Feel free to use it and modify it for both personal and commercial projects.
 
 Happy Coding!
-
-ה־README עתה כולל התייחסות מפורשת לשימוש ברכיב `GeneralItem`, המסייע בהחלפה של התנאי הארוך `ItemType = ... OrElse ItemType = ...` למשהו קצר וקריא יותר (`If w.GeneralItem Then ...`).
