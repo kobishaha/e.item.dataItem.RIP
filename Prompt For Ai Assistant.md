@@ -7,11 +7,13 @@ This code may involve controls such as Repeater, DataList, or other ASP.NET serv
 Below is a summarized reference for the RepeaterEventArgsWrapper class
 that exists in my project. You can assume it has at least the following members:
 
+''' vb.net
 Public Class RepeaterEventArgsWrapper
     ' The original event args
     Public ReadOnly Property Original As RepeaterItemEventArgs
 
-    ' Commonly used properties
+
+    Commonly used properties
     Public ReadOnly Property Item As RepeaterItem
     Public ReadOnly Property Type As ListItemType
     Public ReadOnly Property Data As DataRowView
@@ -46,9 +48,12 @@ Public Class RepeaterEventArgsWrapper
     Public Function HtmlTableRow(controlName As String) As HtmlTableRow
     Public Function HtmlTableCell(controlName As String) As HtmlTableCell
     ' etc...
-End Class
 
-' End of reference
+'''
+nd Class
+
+ End of reference
+
 --------------------------------------------------------------------------------
 
 ## Primary Tasks
